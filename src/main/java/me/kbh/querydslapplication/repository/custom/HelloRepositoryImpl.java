@@ -11,6 +11,5 @@ import org.springframework.stereotype.Repository;
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class HelloRepositoryImpl implements CustomHelloRepository{
 
-    JPAQueryFactory jpaQueryFactory;
-
+    JPAQueryFactory queryFactory;
 }
